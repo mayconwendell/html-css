@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferetes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1100px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/take-me.mp3" controls autoplay></audio>
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" controls autoplay loop><!--loop quando o audio acabar ele recomeça o audio-->
+        <source src="midia/take-me.mp3" type="audio/mpeg">
+        <source src="midia/take-me.ogg" type="audio/ogg">
+        <source src="midia/take.wav" type="audio/wav"> <!--Evitar usar o wav, pois os arquivos são muito pesados-->
+        <p>Infelizmente seu navegador não consegue reproduzia áudio <a href="midia/take-me.mp3">Clique aqui ára baixar o arquivo</a></p>
+    </audio>
+</body>
+</html>
