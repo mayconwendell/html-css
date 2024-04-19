@@ -9,8 +9,12 @@ div.quadrado{
     height: 300px;
 }
 
+body{
+    background-image: url('imagens/wallpaper004.jpg');
+}
+
 div#q1{
-    background-color: skyblue;
+    background-color: purple;
 }
 
 div#q2{
