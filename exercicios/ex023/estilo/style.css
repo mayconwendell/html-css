@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+tr{
+    font-weight: bolder;
+}
+
+th.tamanho{
+    width: 50px;
+}
+
+td.liberta{
+    color: green;
+}
+
+td.rebaixamento{
+    color: red;
+}
+
+tr.flamengo{
+    background-image: linear-gradient(to right, red, black);
+}
+tr.corinthians{
+    background-image: linear-gradient(to right, black, white);
+}
+tr.vasco{
+    background-image: linear-gradient(to right, white, black, red);
+}
+tr.fluminense{
+    background-image: linear-gradient(to right, #831D1c, white, green)
+}
+tr.botafogo{
+    background-image: linear-gradient(to right, black, white);
+}
+tr.palmeiras{
+    background-image: linear-gradient(to right, green, white);
+}
+tr.sp{
+    background-image: linear-gradient(to right, black, white, red);
+}
+tr.criciuma{
+    background-image: linear-gradient(to right, yellow, black, yellow);
+}
+tr.juventude{
+    background-image: linear-gradient(to right, green, white);
+}
+tr.vitoria{
+    background-image: linear-gradient(to right, red, black);
+}
+tr.bahia{
+    background-image: linear-gradient(to right, rgb(0, 110, 255), white, red );
+}
+tr.galo{
+    background-image: linear-gradient(to right, black, white, black);
+}
+tr.furacao{
+    background-image: linear-gradient(to right, red, black, red, black);
+}
+tr.goieniense{
+    background-image: linear-gradient(to right, red, black)
+}
+tr.cruzeiro{
+    background-image: linear-gradient(to right, blue, white);
+}
+tr.inter{
+    background-image: linear-gradient(to right, red, white);
+}
+tr.gremio{
+    background-image: linear-gradient(to right, blue, black, white);
+}
+tr.cuiaba{
+    background-image: linear-gradient(to right, green, yellow);
+}
+tr.fortaleza{
+    background-image: linear-gradient(to right, blue, white, red);
+}
+tr.bragantino{
+    background-image: linear-gradient(to right, black, white);
+}
