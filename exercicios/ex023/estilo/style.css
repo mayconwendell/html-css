@@ -1,19 +1,23 @@
 @charset "UTF-8";
 
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
 tr{
     font-weight: bolder;
 }
 
 th.tamanho{
     width: 50px;
-}
-
-td.liberta{
-    color: green;
-}
-
-td.rebaixamento{
-    color: red;
 }
 
 tr.flamengo{
